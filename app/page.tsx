@@ -13,6 +13,7 @@ import { ImageCarousel } from "./components/ImageCarousel";
 import weddingJson from '@/app/components/weddingImages.json';
 import eventJson from '@/app/components/eventImages.json';
 import cuisineJson from '@/app/components/cuisineImages.json';
+import MapleWhiteLeafBackground from "./components/ui/MapleWhite";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -95,6 +96,10 @@ export default function Home() {
               <div className={twMerge("grid grid-cols-1 md:grid-cols-3 justify-center items-start gap-2", inter.className)}>
               <div className={twMerge("flex flex-row justify-center items-center py-6 px-0.5 rounded-lg border border-[#bd0a0ac9]/30 md:border-neutral-900 hover:border-[#bd0a0ac9] gap-3")}>
                 <ForkKnife className="size-6"/>
+                <p className="leading-tight text-base font-bold">North Indian Cuisine</p>
+              </div>
+              <div className={twMerge("flex flex-row justify-center items-center py-6 px-0.5 rounded-lg border border-[#bd0a0ac9]/30 md:border-neutral-900 hover:border-[#bd0a0ac9] gap-3")}>
+                <ForkKnife className="size-6"/>
                 <p className="leading-tight text-base font-bold">Traditional Kashmiri Cuisine</p>
               </div>
               <div className={twMerge("flex flex-row justify-center items-center py-6 px-0.5 rounded-lg border border-[#bd0a0ac9]/30 md:border-neutral-900 hover:border-[#bd0a0ac9] gap-3")}>
@@ -147,7 +152,59 @@ export default function Home() {
       </section>
       <section className={twMerge("relative bg-transparent px-4 md:px-32 flex flex-col gap-4 py-4 overflow-hidden", inter.className)}>
         <h2 className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Testimonials</h2>
-        <h3 className="text-sm md:text-normal">Explore the rich and diverse flavors of Kashmiri cuisine, meticulously crafted to offer an unforgettable dining experience. Our culinary team takes pride in using the freshest ingredients and traditional recipes to create dishes that are not only delicious but also visually stunning.</h3>
+        <h3 className="text-sm md:text-normal">Kashmir is known for its breathtaking landscapes, rich culture, and warm hospitality. At Chinar Hospitality, we strive to embody these qualities in every event we host. Our clients often share their experiences, highlighting the seamless service, exquisite cuisine, and attention to detail that set us apart.</h3>
+        <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col p-4 border border-[#bd0a0ac9]/30 rounded-lg">
+            <blockquote className="border-l-4 border-[#bd0a0ac9] pl-4 italic">
+              &quot;One of the Best Cuisines you can have in Pune. Specially the Kashmiri Cuisines are foodies delight. Delicious and good quality food is the forte.&quot;
+            </blockquote>
+            <p className="mx-2 mt-2 font-bold">- Vipin Bhat</p>
+          </div>
+            <div className="flex flex-col p-4 border border-[#bd0a0ac9]/30 rounded-lg">
+              <blockquote className="border-l-4 border-[#bd0a0ac9] pl-4 italic">
+                &quot;Chinar has been most outstanding caterers , they have covered our events and served 1000s of guests . We would strongly recommend Chinar Hospitality and Catering Services.&quot;
+              </blockquote>
+              <p className="mx-2 mt-2 font-bold">- Vithal Chowdhary</p>
+            </div>
+            <div className="flex flex-col p-4 border border-[#bd0a0ac9]/30 rounded-lg">
+            <blockquote className="border-l-4 border-[#bd0a0ac9] pl-4 italic">
+              &quot;I have some great experience of Chinar Hospitality. Anshuman is a thorough Gentleman with two decades of experience . You will love food &amp; service.&quot;
+            </blockquote>
+            <p className="mx-2 mt-2 font-bold">- Sunil Raina</p>
+            </div>
+            <div className="flex flex-col p-4 border border-[#bd0a0ac9]/30 rounded-lg">
+            <blockquote className="border-l-4 border-[#bd0a0ac9] pl-4 italic">
+              &quot;Few days ago ordered rohganosh from them. Taste was homely. Quality and quality both were descent. Service, packaging was also great.&quot;
+            </blockquote>
+            <p className="mx-2 mt-2 font-bold">- Vidi R</p>
+            </div>
+        </div>
+      </section>
+      <section className={twMerge("relative px-4 md:px-32 flex flex-col overflow-hidden bg-[#bd0a0ac9] gap-4 py-4", inter.className)}>
+        <MapleWhiteLeafBackground />
+        <h2 className="font-bold text-white text-xl md:text-2xl">Achievements &amp; Recognition</h2>
+        <div className="flex flex-col w-full">
+          <div className="flex justify-center items-center">
+          <Image src='/award.jpg' alt="Mr and Mrs Sumbli accepting an award" width={640} height={360} className="size-72 z-10 object-cover" />
+          </div>
+          <div className="flex flex-col py-4 gap-4 text-white font-bold">
+            <span className="flex flex-row">Awarded by <p className="italic">&quot;Pride of Maharashtra&quot;</p></span>
+            <p className="text-white font-semibold">Chinar Hospitality has been recognized for its excellence in catering and event management, receiving this prestigious award from The Mirror Group.</p>
+            <div className="flex flex-col">
+            <blockquote className="border-l-4 border-white pl-4 italic">
+              &quot;This honor is particularly special to us, as it reflects the love and care we poured into our services, especially during the challenging times following the pandemic. It's a testament to our unwavering commitment to making every celebration extraordinary, no matter the circumstances. <p>With every event we craft, we continue to strive for excellence and bring joy to our guests.&quot;</p>
+            </blockquote>
+            <span className="text-white font-semibold px-2 py-2">- Anshuman Sumbli (Founding Director)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={twMerge("relative px-4 md:px-32 flex flex-col gap-4 py-4", inter.className)}>
+        <h2 className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Our Team</h2>
+        <span className="text-sm md:text-normal">Meet the talented individuals behind Chinar Hospitality.</span>
+        <div className="flex">
+
+        </div>
       </section>
       </>
       )}
