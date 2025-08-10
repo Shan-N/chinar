@@ -29,7 +29,7 @@ const Leaf = ({ delay, xStart, xDrift, duration, size, rotateSpeed }: LeafProps)
       }}
       initial={{ y: initialY, rotate: rotateSpeed * 180 }}
       animate={{
-        y: "110%",
+        y: "200%",
         x: [`${xStart}%`, `${xStart + xDrift}%`],
         rotate: 360 * rotateSpeed,
       }}

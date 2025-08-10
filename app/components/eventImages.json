@@ -1,0 +1,27 @@
+[
+    {
+        "src" : "/eventImages/image1.jpeg",
+        "alt" : "Corporate event setup",
+        "className" : ""
+    },
+    {
+        "src" : "/eventImages/image2.jpg",
+        "alt" : "Birthday party celebration",
+        "className" : ""
+    },
+    {
+        "src" : "/eventImages/image3.jpeg",
+        "alt" : "Anniversary event",
+        "className" : ""
+    },
+    {
+        "src" : "/eventImages/image4.jpg",
+        "alt" : "Corporate team building event",
+        "className" : ""
+    },
+    {
+        "src" : "/eventImages/image5.jpeg",
+        "alt" : "Corporate networking event",
+        "className" : ""
+    }
+]

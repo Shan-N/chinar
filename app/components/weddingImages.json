@@ -1,0 +1,27 @@
+[
+    {
+        "src" : "/weddingImages/img1.jpeg",
+        "alt" : "Chinar Team at a wedding",
+        "className" : ""
+    },
+    {
+        "src" : "/weddingImages/image2.jpeg",
+        "alt" : "Beautiful wedding decor",
+        "className" : ""
+    },
+    {
+        "src" : "/weddingImages/image3.jpg",
+        "alt" : "Couple's first dance",
+        "className" : ""
+    },
+    {
+        "src" : "/weddingImages/image4.jpeg",
+        "alt" : "Wedding cake cutting",
+        "className" : ""
+    },
+    {
+        "src" : "/weddingImages/image5.jpg",
+        "alt" : "Bride and groom at sunset",
+        "className" : ""
+    }
+]
