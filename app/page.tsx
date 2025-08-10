@@ -12,6 +12,7 @@ import MapleLeafBackground from "./components/ui/Maple";
 import { ImageCarousel } from "./components/ImageCarousel";
 import weddingJson from '@/app/components/weddingImages.json';
 import eventJson from '@/app/components/eventImages.json';
+import cuisineJson from '@/app/components/cuisineImages.json';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -119,22 +120,28 @@ export default function Home() {
         </div>
         <div>
           {selectedGallery === 'WEDDING' && (
-            <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4">
                 <h4 className="font-bold text-neutral-900">Weddings</h4>
                 <div className="justify-center items-center">
-                  <ImageCarousel gallery={weddingJson} />
+                  <ImageCarousel grid={true} gallery={weddingJson} />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
                 <h4 className="font-bold text-neutral-900">Events</h4>
                 <div className="justify-center items-center">
-                  <ImageCarousel gallery={eventJson} />
+                  <ImageCarousel grid={true} gallery={eventJson} />
                 </div>
               </div>
             </div>
           )}
-          {selectedGallery === 'EVENT' && <p>Event Gallery Content</p>}
+          {selectedGallery === 'EVENT' && (
+              <div className="flex flex-col gap-4">
+                <div className="justify-center items-center">
+                  <ImageCarousel grid={true} gallery={cuisineJson} />
+                </div>
+              </div>
+          )}
           {selectedGallery === 'DINE' && <p>Dine-In Gallery Content</p>}
         </div>
       </section>

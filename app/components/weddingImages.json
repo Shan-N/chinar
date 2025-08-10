@@ -23,5 +23,20 @@
         "src" : "/weddingImages/image5.jpg",
         "alt" : "Bride and groom at sunset",
         "className" : ""
+    },
+    {
+        "src": "/weddingImages/image6.jpeg",
+        "alt": "Bride and groom's first look",
+        "className": ""
+    },
+    {
+        "src": "/weddingImages/image7.jpg",
+        "alt": "Candid moments",
+        "className": ""
+    },
+    {
+        "src": "/weddingImages/image8.jpg",
+        "alt": "Wedding ceremony",
+        "className": ""
     }
 ]

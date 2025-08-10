@@ -10,8 +10,23 @@ interface ImageProps {
     className?: string;
 }
 
-export const ImageCarousel = ({gallery}: {gallery: ImageProps[]}) => {
-    return(
+export const ImageCarousel = ({gallery, grid}: {gallery: ImageProps[], grid: boolean}) => {
+    return (
+        grid ? (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {gallery?.map((image, index) => (
+                <div key={index} className="relative w-full md:h-64">
+                    <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        priority
+                        className={twMerge(image.className, 'object-cover')}
+                    />
+                </div>
+            ))}
+        </div>
+    ) : (
         <Carousel plugins={[
             Autoplay({
                 delay: 5000,
@@ -25,14 +40,15 @@ export const ImageCarousel = ({gallery}: {gallery: ImageProps[]}) => {
                             src={image.src}
                             alt={image.alt}
                             priority
+
                             width={500}
                             height={500}
                             className={twMerge(image.className, 'object-cover size-64 md:size-[480px]')}
                         />
                     </CarouselItem>
                 ))}
-
             </CarouselContent>
         </Carousel>
     )
+)
 }

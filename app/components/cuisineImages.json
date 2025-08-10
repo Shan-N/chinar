@@ -1,0 +1,42 @@
+[
+    {
+        "src" : "/cuisineImages/image1.jpg",
+        "alt" : "Kashmiri Rogan Josh",
+        "className" : ""
+    },
+    {
+        "src" : "/cuisineImages/image2.jpeg",
+        "alt" : "Kashmiri Dum Aloo",
+        "className" : ""
+    },
+    {
+        "src" : "/cuisineImages/image3.jpg",
+        "alt" : "Kashmiri Yakhni",
+        "className" : ""
+    },
+    {
+        "src" : "/cuisineImages/image4.jpeg",
+        "alt" : "Kashmiri Pulao",
+        "className" : ""
+    },
+    {
+        "src" : "/cuisineImages/image5.jpg",
+        "alt" : "Kashmiri Wazwan",
+        "className" : ""
+    },
+    {
+        "src":"/cuisineImages/image6.jpg",
+        "alt": "Kashmiri Tabak Maaz",
+        "className": ""
+    },
+    {
+        "src": "/cuisineImages/image7.jpeg",
+        "alt": "Kashmiri Nadru Monje",
+        "className": ""
+    },
+    {
+        "src":"/cuisineImages/image8.jpeg",
+        "alt": "Kashmiri Yakhni",
+        "className": ""
+    }
+]

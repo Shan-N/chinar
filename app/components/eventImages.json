@@ -23,5 +23,20 @@
         "src" : "/eventImages/image5.jpeg",
         "alt" : "Corporate networking event",
         "className" : ""
+    },
+    {
+        "src": "/eventImages/image6.jpg",
+        "alt": "Corporate gala dinner",
+        "className": ""
+    },
+    {
+        "src": "/eventImages/image7.jpg",
+        "alt": "Corporate awards ceremony",
+        "className": ""
+    },
+    {
+        "src": "/eventImages/image8.jpg",
+        "alt": "Corporate holiday party",
+        "className": ""
     }
 ]
