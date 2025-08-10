@@ -1,0 +1,42 @@
+[
+    {
+        "src" : "dineinImages/image1.jpg",
+        "alt" : "Image 1",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image2.jpg",
+        "alt" : "Image 2",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image3.jpg",
+        "alt" : "Image 3",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image4.jpg",
+        "alt" : "Image 4",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image5.jpg",
+        "alt" : "Image 5",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image6.jpg",
+        "alt" : "Image 6",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image7.jpg",
+        "alt" : "Image 7",
+        "className" : ""
+    },
+    {
+        "src" : "dineinImages/image8.jpg",
+        "alt" : "Image 8",
+        "className" : ""
+    }
+]
