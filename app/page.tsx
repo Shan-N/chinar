@@ -145,6 +145,10 @@ export default function Home() {
           {selectedGallery === 'DINE' && <p>Dine-In Gallery Content</p>}
         </div>
       </section>
+      <section className={twMerge("relative bg-transparent px-4 md:px-32 flex flex-col gap-4 py-4 overflow-hidden", inter.className)}>
+        <h2 className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Testimonials</h2>
+        <h3 className="text-sm md:text-normal">Explore the rich and diverse flavors of Kashmiri cuisine, meticulously crafted to offer an unforgettable dining experience. Our culinary team takes pride in using the freshest ingredients and traditional recipes to create dishes that are not only delicious but also visually stunning.</h3>
+      </section>
       </>
       )}
     </div>

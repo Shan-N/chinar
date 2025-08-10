@@ -15,10 +15,11 @@ export const ImageCarousel = ({gallery, grid}: {gallery: ImageProps[], grid: boo
         grid ? (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {gallery?.map((image, index) => (
-                <div key={index} className="relative w-full md:h-64">
+                <div key={index} className="relative w-full h-64">
                     <Image
                         src={image.src}
                         alt={image.alt}
+                        sizes="(max-width: 640px) 100vw, (min-width: 641px) 50vw"
                         fill
                         priority
                         className={twMerge(image.className, 'object-cover')}
