@@ -13,6 +13,7 @@ import { ImageCarousel } from "./components/ImageCarousel";
 import weddingJson from '@/app/components/weddingImages.json';
 import eventJson from '@/app/components/eventImages.json';
 import cuisineJson from '@/app/components/cuisineImages.json';
+import dineJson from '@/app/components/dineInImages.json';
 import MapleWhiteLeafBackground from "./components/ui/MapleWhite";
 import { Team } from "./components/OurTeam";
 import { Footer } from "./components/Footer";
@@ -192,7 +193,9 @@ export default function Home() {
               {selectedGallery === 'EVENT' && (
                 <ImageCarousel grid={true} gallery={cuisineJson} />
               )}
-              {selectedGallery === 'DINE' && <p>Dine-In Gallery Content</p>}
+              {selectedGallery === 'DINE' && (
+                <ImageCarousel grid={true} gallery={dineJson} />
+              )}
             </motion.div>
           </motion.section>
 
