@@ -15,7 +15,7 @@ export const Footer = () => {
                     <span className="flex text-xl tracking-wide font-semibold">Contact Us</span>
                     <p className="py-4 text-lg font-light">We&apos;d be happy to hear from you! If you have any questions, comments, or suggestions, don&apos;t hesitate to reach out.</p>
                     <p className="py-2 text-lg font-light">We&apos;ll make sure to respond as quickly as possible!</p>
-                    <span className="py-4 text-lg font-medium">Anshuman Sumbli: +91 95033 30842</span>
+                    <span className="py-4 text-lg font-medium">Anshuman Sumbli: +91 96372 02111</span>
                     <span className="py-4 text-lg font-medium">Email: sumblianshu77@yahoo.com</span>
                     <div className="py-7 flex flex-col">
                         <span className="text-xl tracking-wide font-semibold">Connect with us</span>
@@ -28,7 +28,7 @@ export const Footer = () => {
                             </a>
                         </div>
                         <div className={twMerge("pt-10 text-white/60 text-center flex flex-col")}>
-                            <span>Developed with 💗 by Shan</span>
+                            <span>Developed with 💗 by Perception Labs</span>
                             <span>&copy; {new Date().getFullYear()} Chinar Hospitality and Catering</span>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
                         <span className="flex text-xl tracking-wide font-semibold">Contact Us</span>
                         <p className="py-4 text-lg font-light">We&apos;d be happy to hear from you! If you have any questions, comments, or suggestions, don&apos;t hesitate to reach out.</p>
                         <p className="py-2 text-lg font-light">We&apos;ll make sure to respond as quickly as possible!</p>
-                        <span className="py-4 text-lg font-medium">Anshuman Sumbli: +91 95033 30842</span>
+                        <span className="py-4 text-lg font-medium">Anshuman Sumbli: +91 96372 02111</span>
                         <span className="py-4 text-lg font-medium">Email: sumblianshu77@yahoo.com</span>
                         <div className="py-7 flex flex-col">
                             <span className="text-xl tracking-wide font-semibold">Connect with us</span>
@@ -63,7 +63,7 @@ export const Footer = () => {
                     </div>
             </div>
             <div className={twMerge("hidden md:flex pt-10 pb-2 text-white/60 text-center flex-col text-sm")}>
-                <span>Developed with 💗 by Shan</span>
+                <span>Developed with 💗 by Perception Labs</span>
                 <span>&copy; {new Date().getFullYear()} Chinar Hospitality and Catering</span>
             </div>
         </footer>
