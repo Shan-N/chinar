@@ -9,11 +9,11 @@ import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] });
 
 const links = [
-  {name: 'Home', href: '/'},
-  { name: 'About Us', href: '/about' },
-  { name: 'Services', href: '/services' },
-  { name: 'Team', href: '/team' },
-  { name: 'Contact', href: '/contact' },
+  {name: 'Home', href: '#'},
+  { name: 'About Us', href: '#' },
+  { name: 'Services', href: '#' },
+  { name: 'Team', href: '/#' },
+  { name: 'Contact', href: '#' },
 ]
 
 type NavbarProps = {
