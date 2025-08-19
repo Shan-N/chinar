@@ -1,9 +1,6 @@
 
 import DineInComponent from "./components/PageClient";
 
-
-
-
 export async function generateMetadata() {
     return {
         title: "Dine In | Chinar Hospitality",
