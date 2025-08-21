@@ -1,0 +1,12 @@
+[
+    {
+        "name" : "Interior1",
+        "src" : "/dineinImages/int1.webp",
+        "className" : ""
+    },
+    {
+        "name" : "Interior2",
+        "src" : "/dineinImages/image1.jpg",
+        "className" : ""
+    }
+]

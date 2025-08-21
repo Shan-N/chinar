@@ -9,11 +9,11 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 const links = [
-  { name: "Home", href: "#home", section: "home" },
-  { name: "About Us", href: "#about", section: "about" },
-  { name: "Services", href: "#services", section: "services" },
-  { name: "Team", href: "#team", section: "team" },
-  { name: "Contact", href: "#contact", section: "contact" },
+  { name: "About Us", href: "/about", section: "about" },
+  { name: "Services", href: "/services", section: "services" },
+  { name: "Dine In", href: "/dine-in", section: "dine-in" },
+  { name: "Team", href: "/team", section: "team" },
+  { name: "Contact", href: "/contact", section: "contact" },
 ];
 
 type NavbarProps = {
@@ -149,7 +149,7 @@ export const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
                   href={link.href}
                   className="text-2xl flex items-center gap-4"
                 >
-                  {link.name} {/* <ArrowTopRightIcon className='size-10'/> */}
+                  {link.name}
                 </Link>
               ))}
             </div>

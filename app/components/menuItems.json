@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chaman Roganjosh",
+        "description": "Cottage cheese cooked in aromatic curry prepared with dry spices & Kashmiri chillies",
+        "price": 500
+    },
+    {
+        "name": "Dumaloo",
+        "description": "Deep fried potatoes dum cooked in gravy flavoured with dry ginger powder, fennel powder and other spices.",
+        "price": 400
+    },
+    {
+        "name": "Mutton Roganjosh",
+        "description": "Tender mutton cooked in a rich and aromatic gravy made with dry spices, and Kashmiri red chili.",
+        "price": 700
+    },
+    {
+        "name": "Mutton Yakhni",
+        "description": "Tender mutton cooked in a yogurt-based gravy with aromatic spices.",
+        "price": 700
+    },
+    {
+        "name": "Goshtaba",
+        "description": "Minced mutton meatballs cooked in a creamy yogurt-based gravy with aromatic spices.",
+        "price": 800
+    },
+    {
+        "name": "Kashmiri Non-Veg Thali",
+        "description": "A lavish spread featuring a variety of Kashmiri non-vegetarian dishes, served with rice and accompaniments.",
+        "price": 1199
+    }
+]

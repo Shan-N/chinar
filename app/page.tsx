@@ -17,6 +17,7 @@ import dineJson from '@/app/components/dineInImages.json';
 import MapleWhiteLeafBackground from "./components/ui/MapleWhite";
 import { Team } from "./components/OurTeam";
 import { Footer } from "./components/Footer";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -159,6 +160,10 @@ export default function Home() {
                 </div>
               )}
             </motion.div>
+            <div className="md:flex hidden">
+              <button className="mt-4 bg-[#bd0a0ac9] text-white text-sm font-bold px-4 py-2 text-center rounded-lg"><Link href="/services">Explore Services</Link></button>
+            </div>
+            <button className="mt-4 bg-[#bd0a0ac9] md:hidden text-white text-sm font-bold px-4 py-2 text-center rounded-lg"><Link href="/services">Explore Services</Link></button>
           </motion.section>
 
           {/* Gallery */}
