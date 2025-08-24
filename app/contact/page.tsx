@@ -3,8 +3,12 @@ import { ContactClient } from "./components/PageClient";
 
 export async function generateMetadata() {
     return {
+        metadataBase: new URL("https://chinarhospitality.com/"),
         title: "Contact Us | Chinar Hospitality",
-        description: "Get in touch with us for any inquiries or support."
+        description: "Get in touch with us for any inquiries or support.",
+        alternates: {
+            canonical: "/contact"
+        }
     }
 }
 
