@@ -119,8 +119,9 @@ const DineInComponent = () => {
                 <motion.p variants={fadeUp} className="md:hidden text-sm text-center text-neutral-900">Ambience Chinar Dine-In</motion.p>
               </motion.div>
             </motion.section>
-
-            <RollCTA />
+            <section className="relative overflow-hidden">
+              <RollCTA />
+            </section>
 
             {/* Menu Section */}
             <motion.section
