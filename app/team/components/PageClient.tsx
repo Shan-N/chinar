@@ -70,7 +70,7 @@ export const TeamClient = () => {
           </motion.p>
         </main>
 
-          {/* Leadership */}
+
           <motion.section
             variants={staggerContainer}
             initial="hidden"
@@ -88,10 +88,10 @@ export const TeamClient = () => {
                 </motion.div>
               ))}
             </div>
-            {/* ✅ description restored */}
+
             <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4">
               <p>
-                Anshuman Sumbli, With over a decade of experience in the hospitality industry, Anshuman brings visionary leadership and a passion for excellence to Chinar Hospitality & Catering. His commitment to quality and innovation has been instrumental in the company's growth and success.
+                Anshuman Sumbli, With over a decade of experience in the hospitality industry, Anshuman brings visionary leadership and a passion for excellence to Chinar Hospitality & Catering. His commitment to quality and innovation has been instrumental in the company&apos;s growth and success.
               </p>
               <p>
                 Ritoo Sumbli, Ritoo is the creative force behind our event planning and execution. Her keen eye for detail and dedication to client satisfaction ensure that every event we handle is unique and flawlessly executed.
@@ -99,7 +99,7 @@ export const TeamClient = () => {
             </motion.div>
           </motion.section>
 
-          {/* Management */}
+
           <motion.section
             variants={staggerContainer}
             initial="hidden"
@@ -118,7 +118,6 @@ export const TeamClient = () => {
                 </motion.div>
               ))}
             </div>
-            {/* ✅ description restored */}
             <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4 z-10">
               <p>
                 Operations and Management Team, Our operations team, led by Vijay Kaul and Parveen Kumar, ensures that every event runs smoothly from start to finish. Their expertise in logistics and coordination is vital to our ability to deliver exceptional service.
@@ -126,7 +125,7 @@ export const TeamClient = () => {
             </motion.div>
           </motion.section>
 
-          {/* Head Chefs */}
+
           <motion.section
             variants={staggerContainer}
             initial="hidden"
@@ -144,7 +143,6 @@ export const TeamClient = () => {
                 </motion.div>
               ))}
             </div>
-            {/* ✅ description restored */}
             <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4">
               <p>
                 Our head chefs, led by three of our best chefs, bring a wealth of culinary expertise and creativity to our kitchen. They are dedicated to using the finest ingredients and innovative techniques to create unforgettable dining experiences for our clients.
