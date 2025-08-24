@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/next"
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chinarhospitality.com/"),
+  metadataBase: new URL("https://www.chinarhospitality.com/"),
   title: "Chinar Hospitality",
   description: "India's No. 1 wedding planner | Chinar Hospitality offers bespoke weddings, fine dining, and world-class service at stunning destinations.",
   alternates: {
