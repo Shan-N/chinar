@@ -70,66 +70,87 @@ export const TeamClient = () => {
           </motion.p>
         </main>
 
-        {/* Leadership */}
-        <motion.section
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="px-4 md:px-32 flex flex-col gap-4"
-        >
-          <motion.h2 variants={fadeUp} className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Leadership</motion.h2>
-          <div className="grid grid-cols-2 gap-4">
-            {teamDetails.map((member) => (
-              <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
-                <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
-                <h3 className="font-bold text-[#1b0e0e]">{member.name}</h3>
-                <p className="text-sm text-center text-[#1b0e0e]">{member.role}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.section>
+          {/* Leadership */}
+          <motion.section
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            className="px-4 md:px-32 flex flex-col gap-4"
+          >
+            <motion.h2 variants={fadeUp} className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Leadership</motion.h2>
+            <div className="grid grid-cols-2 gap-4">
+              {teamDetails.map((member) => (
+                <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
+                  <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
+                  <h3 className="font-bold text-[#1b0e0e]">{member.name}</h3>
+                  <p className="text-sm text-center text-[#1b0e0e]">{member.role}</p>
+                </motion.div>
+              ))}
+            </div>
+            {/* ✅ description restored */}
+            <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4">
+              <p>
+                Anshuman Sumbli, With over a decade of experience in the hospitality industry, Anshuman brings visionary leadership and a passion for excellence to Chinar Hospitality & Catering. His commitment to quality and innovation has been instrumental in the company's growth and success.
+              </p>
+              <p>
+                Ritoo Sumbli, Ritoo is the creative force behind our event planning and execution. Her keen eye for detail and dedication to client satisfaction ensure that every event we handle is unique and flawlessly executed.
+              </p>
+            </motion.div>
+          </motion.section>
 
-        {/* Management */}
-        <motion.section
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="relative px-4 md:px-32 flex flex-col gap-4 py-8 mt-4 bg-[#bd0a0ac9] text-white overflow-hidden"
-        >
-          <MapleWhiteLeafBackground />
-          <motion.h2 variants={fadeUp} className="font-bold text-white text-xl md:text-2xl z-10">Management</motion.h2>
-          <div className="grid grid-cols-2 gap-4 z-10">
-            {managementDetails.map((member) => (
-              <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
-                <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
-                <h3 className="font-bold text-white">{member.name}</h3>
-                <p className="text-sm text-center text-white">{member.role}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.section>
+          {/* Management */}
+          <motion.section
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            className="relative px-4 md:px-32 flex flex-col gap-4 py-8 mt-4 bg-[#bd0a0ac9] text-white overflow-hidden"
+          >
+            <MapleWhiteLeafBackground />
+            <motion.h2 variants={fadeUp} className="font-bold text-white text-xl md:text-2xl z-10">Management</motion.h2>
+            <div className="grid grid-cols-2 gap-4 z-10">
+              {managementDetails.map((member) => (
+                <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
+                  <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
+                  <h3 className="font-bold text-white">{member.name}</h3>
+                  <p className="text-sm text-center text-white">{member.role}</p>
+                </motion.div>
+              ))}
+            </div>
+            {/* ✅ description restored */}
+            <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4 z-10">
+              <p>
+                Operations and Management Team, Our operations team, led by Vijay Kaul and Parveen Kumar, ensures that every event runs smoothly from start to finish. Their expertise in logistics and coordination is vital to our ability to deliver exceptional service.
+              </p>
+            </motion.div>
+          </motion.section>
 
-        {/* Chefs */}
-        <motion.section
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="px-4 md:px-32 flex flex-col gap-4 py-8"
-        >
-          <motion.h2 variants={fadeUp} className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Head Chefs</motion.h2>
-          <div className="grid grid-cols-2 gap-4">
-            {chefsDetails.map((member) => (
-              <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
-                <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
-                <h3 className="font-bold text-[#1b0e0e]">{member.name}</h3>
-                <p className="text-sm text-center text-[#1b0e0e]">{member.role}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.section>
+          {/* Head Chefs */}
+          <motion.section
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            className="px-4 md:px-32 flex flex-col gap-4 py-8"
+          >
+            <motion.h2 variants={fadeUp} className="font-bold text-[#bd0a0ac9] text-xl md:text-2xl">Head Chefs</motion.h2>
+            <div className="grid grid-cols-2 gap-4">
+              {chefsDetails.map((member) => (
+                <motion.div key={member.name} variants={fadeUp} className="flex flex-col items-center">
+                  <Image src={member.src} alt={member.name} width={96} height={96} className="w-56 h-56 aspect-auto rounded-full" />
+                  <h3 className="font-bold text-[#1b0e0e]">{member.name}</h3>
+                  <p className="text-sm text-center text-[#1b0e0e]">{member.role}</p>
+                </motion.div>
+              ))}
+            </div>
+            {/* ✅ description restored */}
+            <motion.div variants={fadeIn} className="flex flex-col gap-4 mt-4">
+              <p>
+                Our head chefs, led by three of our best chefs, bring a wealth of culinary expertise and creativity to our kitchen. They are dedicated to using the finest ingredients and innovative techniques to create unforgettable dining experiences for our clients.
+              </p>
+            </motion.div>
+          </motion.section>
 
         {/* CTA */}
         <motion.section
